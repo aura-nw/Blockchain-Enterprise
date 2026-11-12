@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: foundry-rs/foundry-toolchain@v1
       - run: cd contracts/evm && forge install foundry-rs/forge-std --no-git
-      - uses: crytic/slither-action@v0.4.0
+      - uses: crytic/slither-action@v0.4.2
         with: { target: contracts/evm }
 
   cargo-audit:
