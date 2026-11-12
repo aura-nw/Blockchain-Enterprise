@@ -1,0 +1,4 @@
+# Replace with real GitHub teams/users.
+*             @aura-nw/maintainers
+/contracts/   @aura-nw/contract-reviewers
+/.github/     @aura-nw/maintainers

@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-enterprise",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

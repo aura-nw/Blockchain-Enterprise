@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.turbo/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Foundry
+contracts/evm/out/
+contracts/evm/cache/
+contracts/evm/broadcast/
+contracts/evm/lib/
+
+# Rust
+target/
